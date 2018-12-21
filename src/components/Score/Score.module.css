@@ -1,0 +1,7 @@
+.Score {
+    width: 100%;
+    border: 1px solid green;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}

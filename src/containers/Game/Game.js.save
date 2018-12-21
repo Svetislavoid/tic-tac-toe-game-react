@@ -1,0 +1,11 @@
+           <Sx
+X
+core />
+                    <GameBoard />
+                </div>
+            </Aux>
+        );
+    }
+}
+
+export default game;

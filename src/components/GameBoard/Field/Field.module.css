@@ -1,0 +1,51 @@
+.Field {
+    width: 18vw;
+    height: 18vw;
+    max-width: 150px;
+    max-height: 150px;
+    cursor: pointer;
+}
+
+.Field:hover {
+    background-color: rgba(0, 0, 50, 0.2);
+}
+
+.Field1 {
+
+}
+
+.Field2 {
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+}
+
+.Field3 {
+
+}
+
+.Field4 {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.Field5 {
+    border: 3px solid black;
+}
+
+.Field6 {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.Field7 {
+
+}
+
+.Field8 {
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+}
+
+.Field9 {
+
+}
