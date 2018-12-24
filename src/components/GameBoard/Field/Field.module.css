@@ -6,46 +6,57 @@
     cursor: pointer;
 }
 
-.Field:hover {
-    background-color: rgba(0, 0, 50, 0.2);
+.XFieldBackground {
+    background-image: url('../../../assets/xo-icons.png');
+    background-size: cover;
 }
 
-.Field1 {
+.OFieldBackground {
+    background-image: url('../../../assets/xo-icons.png');
+    background-size: cover;
+    background-position: 100%;
+}
+
+.NoBackground {
+    background-image: unset;
+}
+
+.Field_1 {
 
 }
 
-.Field2 {
+.Field_2 {
     border-right: 3px solid black;
     border-left: 3px solid black;
 }
 
-.Field3 {
+.Field_3 {
 
 }
 
-.Field4 {
+.Field_4 {
     border-top: 3px solid black;
     border-bottom: 3px solid black;
 }
 
-.Field5 {
+.Field_5 {
     border: 3px solid black;
 }
 
-.Field6 {
+.Field_6 {
     border-top: 3px solid black;
     border-bottom: 3px solid black;
 }
 
-.Field7 {
+.Field_7 {
 
 }
 
-.Field8 {
+.Field_8 {
     border-right: 3px solid black;
     border-left: 3px solid black;
 }
 
-.Field9 {
+.Field_9 {
 
 }

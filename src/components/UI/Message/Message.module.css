@@ -1,0 +1,13 @@
+.Message {
+    text-align: center;
+    font-size: 30px;
+    height: 20px;
+}
+
+.X {
+    color: #1c1cff;
+}
+
+.O {
+    color: #e01c1c;
+}

@@ -1,9 +1,195 @@
 .GameBoard {
-    width: 100%;
-    padding: 40px 0;
+    width: 57vw;
+    max-width: 470px;
+    margin: 20px auto 0;
     text-align: center;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     flex-flow: wrap;
+    position: relative;
+}
+
+.HorizontalLine1 {
+    width: 57vw;
+    max-width: 470px;
+    margin: 20px auto 0;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    position: relative;
+}
+
+.HorizontalLine2 {
+    width: 57vw;
+    max-width: 470px;
+    margin: 20px auto 0;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    position: relative;
+}
+
+.HorizontalLine3 {
+    width: 57vw;
+    max-width: 470px;
+    margin: 20px auto 0;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    position: relative;
+}
+
+.VerticalLine1 {
+    width: 57vw;
+    max-width: 470px;
+    margin: 20px auto 0;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    position: relative;
+}
+
+.VerticalLine2 {
+    width: 57vw;
+    max-width: 470px;
+    margin: 20px auto 0;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    position: relative;
+}
+
+.VerticalLine3 {
+    width: 57vw;
+    max-width: 470px;
+    margin: 20px auto 0;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    position: relative;
+}
+
+.DiagonalLine1 {
+    width: 57vw;
+    max-width: 470px;
+    margin: 20px auto 0;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    position: relative;
+}
+
+.DiagonalLine2 {
+    width: 57vw;
+    max-width: 470px;
+    margin: 20px auto 0;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    position: relative;
+}
+
+.HorizontalLine1:after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(255,255,255,0) 15%, rgba(0,0,0,1) 15%, rgba(0,0,0,1) 16.2%, rgba(255,255,255,0) 16.2%);
+}
+
+.HorizontalLine2:after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(255,255,255,0) 49.4%, rgba(0,0,0,1) 49.4%, rgba(0,0,0,1) 50.6%, rgba(255,255,255,0) 50.6%);
+}
+
+.HorizontalLine3:after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(255,255,255,0) 83.8%, rgba(0,0,0,1) 83.8%, rgba(0,0,0,1) 85%, rgba(255,255,255,0) 85%);
+}
+
+.VerticalLine1:after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(255,255,255,0) 17%, rgba(0,0,0,1) 17%, rgba(0,0,0,1) 18.2%, rgba(255,255,255,0) 18.2%);
+}
+
+.VerticalLine2:after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(255,255,255,0) 49.4%, rgba(0,0,0,1) 49.4%, rgba(0,0,0,1) 50.6%, rgba(255,255,255,0) 50.6%);
+}
+
+.VerticalLine3:after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(255,255,255,0) 81.8%, rgba(0,0,0,1) 81.8%, rgba(0,0,0,1) 83%, rgba(255,255,255,0) 83%);
+}
+
+.DiagonalLine1:after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(255,255,255,0) 49.4%, rgba(0,0,0,1) 49.4%, rgba(0,0,0,1) 50.6%, rgba(255,255,255,0) 50.6%);
+}
+
+.DiagonalLine2:after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(255,255,255,0) 49.4%, rgba(0,0,0,1) 49.4%, rgba(0,0,0,1) 50.6%, rgba(255,255,255,0) 50.6%);
 }

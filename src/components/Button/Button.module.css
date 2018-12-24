@@ -1,0 +1,22 @@
+.Button {
+    display: block;
+    border: none;
+    background-color: #6666ff;
+    width: 15vw;
+    min-width: 150px;
+    height: 5vh;
+    min-height: 50px;
+    margin: 20px auto;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.Button:disabled {
+    background-color: #999;
+    cursor: not-allowed;
+}
+
+.Button:hover:not(:disabled) {
+    box-shadow: 0 0 5px #aa55cc;
+}
