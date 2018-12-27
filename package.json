@@ -1,5 +1,6 @@
 {
-  "name": "xogame-react",
+  "name": "tic-tac-toe-game-react",
+  "homepage": "http://Svetislavoid.github.io/tic-tac-toe-game-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
